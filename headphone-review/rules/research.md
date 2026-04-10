@@ -1,12 +1,12 @@
 # Research Rules
 
-Goal: collect enough multilingual evidence to explain sound, buyer fit, and tradeoffs without faking certainty.
+Goal: collect enough multilingual evidence to explain sound, buyer fit, tradeoffs, and disagreement between reviewers without faking certainty.
 
 Minimum bar:
 
 - `1` official fact source
-- `2` review sources
-- `2` languages when useful
+- `4` review sources
+- `2-3` languages when useful
 - `1` community source only if it adds fit, QC, or genre-use signal
 
 Search order:
@@ -41,6 +41,20 @@ Reduce them into three buckets:
 - `Stable consensus`
 - `Open uncertainty`
 
+Also extract a fourth bucket:
+
+- `Disagreement map`
+
+For the disagreement map, write down:
+
+- which outlets broadly agree
+- which outlet likes it more
+- which outlet is more critical
+- what exact point they disagree on
+- whether the disagreement comes from tuning preference, genre preference, fit, source chain, or product revision
+
+Keep this map practical. Prefer a few clear disagreements over a long list of weak differences.
+
 Buyer translation examples:
 
 - `bass lift` -> commute, EDM, casual listening; may blur low mids
@@ -54,3 +68,4 @@ Stop when you can answer:
 - what it sounds like
 - one strong reason to buy
 - one clear reason to skip
+- the main disagreement between reviewers

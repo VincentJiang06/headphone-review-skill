@@ -1,11 +1,11 @@
 ---
 name: headphone-review
-description: Use this skill when the user wants a buyer-facing review of a headphone, IEM, earbud, or TWS model by name. Ask for language and description mode first, then turn multilingual reviews and official specs into a pure-Markdown conclusion about sound, fit, and tradeoffs.
+description: Use this skill when the user wants a buyer-facing long review of a headphone, IEM, earbud, or TWS model by name. Use AskUserQuestion for language and description mode first, then turn multilingual reviews and official specs into a pure-Markdown article with a strong but concise disagreement section and more human-sounding prose.
 ---
 
 # Headphone Review
 
-Use this skill when the user names a headphone, IEM, earbud, or TWS model and wants a buyer-facing review: what it sounds like, who it fits, who should skip it, and why.
+Use this skill when the user names a headphone, IEM, earbud, or TWS model and wants a buyer-facing long review: what it sounds like, who it fits, who should skip it, and where reviewers agree or disagree.
 
 When web lookup is needed, also use `$web-access` or the environment's browsing tools.
 
@@ -19,14 +19,14 @@ Do not use this skill for pure repair, firmware, pairing, or EQ-only tasks unles
 
 ## Workflow
 
-1. Ask the missing preference questions first.
+1. Ask the missing preference questions first with the question tool.
 Read [`rules/intake.md`](./rules/intake.md).
 
 2. Gather multilingual evidence and reduce it into facts, consensus, and uncertainty.
 Read [`rules/research.md`](./rules/research.md).
 
 3. Write the review in pure Markdown with the chosen language and description mode.
-Read [`rules/output.md`](./rules/output.md).
+Read [`rules/output.md`](./rules/output.md) and [`rules/humanize.md`](./rules/humanize.md).
 
 4. If you are validating sample outputs, score them against the eval rules.
 Read [`rules/eval.md`](./rules/eval.md).
@@ -39,4 +39,5 @@ The review clearly answers:
 2. strengths and weaknesses
 3. who should buy it
 4. who should avoid it
-5. confidence level and evidence boundary
+5. where reviewers disagree and why
+6. confidence level and evidence boundary

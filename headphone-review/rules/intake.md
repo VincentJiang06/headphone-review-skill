@@ -1,16 +1,17 @@
 # Intake Rules
 
-Ask the missing preferences before you review:
+Use the `AskUserQuestion` tool to ask the following before starting:
 
-- `你想要中文还是英文输出？`
-- `你想要更客观的描述，还是更情绪化、抽象一些的描述？`
+1. Language — options: `中文`, `English`
+2. Description mode — options: `客观（偏理性、直接）`, `情绪化抽象（偏氛围、意象）`
 
 Normalize answers into:
 
 - `中文` or `English`
 - `客观` or `情绪化抽象`
 
-Do not ask again if the user already made the choice.
+If the user already gave one choice, use `AskUserQuestion` only for the missing one.
+Do not start the review before both choices are known, unless the run is a fixed eval preset.
 
 Model lock:
 

@@ -1,4 +1,4 @@
 interface:
   display_name: "Headphone Review"
   short_description: "Headphone reviews with language and style selection"
-  default_prompt: "Use $headphone-review. Ask for language, ask for description mode, then write a pure-Markdown headphone review."
+  default_prompt: "Use $headphone-review. Use AskUserQuestion for language and description mode, then write a pure-Markdown long review with a concise disagreement section and humanized prose."
