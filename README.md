@@ -13,14 +13,15 @@ It is designed to answer the questions that matter in an actual buying decision:
 
 ## Current Version
 
-- `1.0.4`
+- `1.0.5`
 
-## What's New In 1.0.4
+## What's New In 1.0.5
 
 - adds `rules/humanize.md` to suppress common AI-sounding phrasing
 - keeps the body long-form, but tighter than the earlier longform experiments
 - keeps the disagreement section short, plain, and decision-relevant
 - upgrades the opening verdict from one sentence to a compact two-sentence verdict
+- enforces option-style `AskUserQuestion` usage at the entry layer for language and description mode
 
 ## What The Skill Does
 

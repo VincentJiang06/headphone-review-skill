@@ -1,6 +1,6 @@
 ---
 name: headphone-review
-description: Use this skill when the user wants a buyer-facing long review of a headphone, IEM, earbud, or TWS model by name. Use AskUserQuestion for language and description mode first, then turn multilingual reviews and official specs into a pure-Markdown article with a strong but concise disagreement section and more human-sounding prose.
+description: Use this skill when the user wants a buyer-facing long review of a headphone, IEM, earbud, or TWS model by name. Use AskUserQuestion in option mode first for language and description mode, then turn multilingual reviews and official specs into a pure-Markdown article with a strong but concise disagreement section and more human-sounding prose.
 ---
 
 # Headphone Review
@@ -19,7 +19,9 @@ Do not use this skill for pure repair, firmware, pairing, or EQ-only tasks unles
 
 ## Workflow
 
-1. Ask the missing preference questions first with the question tool.
+1. Ask the missing preference questions first with `AskUserQuestion` in option mode, not as free-form text.
+Language options: `中文`, `English`
+Description mode options: `客观（偏理性、直接）`, `情绪化抽象（偏氛围、意象）`
 Read [`rules/intake.md`](./rules/intake.md).
 
 2. Gather multilingual evidence and reduce it into facts, consensus, and uncertainty.
